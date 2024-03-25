@@ -1,4 +1,4 @@
-const kv = await Deno.openKv("https://api.deno.com/databases/d1703754-670e-470a-aa3e-95660190a1d3/connect");
+const kv = await Deno.openKv();
 
 const PREFIX = ["count"];
 
